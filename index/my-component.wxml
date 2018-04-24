@@ -1,0 +1,4 @@
+<!--index/my-component.wxml-->
+<view class='wrapper'>
+  <text>我是组件</text>
+</view>

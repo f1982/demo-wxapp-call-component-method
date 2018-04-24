@@ -1,0 +1,9 @@
+<import src="./my-component.wxml" />
+<view class="intro">如何在页面调用组件内部方法的 Demo </view>
+<my-component id="component-id"></my-component>
+<view class="button-wrapper">
+  <button bindtap='callComponentMethod'>点我调用组件内部方法</button>
+</view>
+<view class="info">查看控制台输出</view>
+<view class="info">博客：http://f1982.com</view>
+<view class="info">新浪微博 @身在某处</view>

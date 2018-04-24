@@ -1,0 +1,14 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+
+.button-wrapper{
+  margin-top: 44rpx;
+}
+
+.info {
+  margin: 10px;
+  text-align: center;
+  font-size: 32rpx;
+}

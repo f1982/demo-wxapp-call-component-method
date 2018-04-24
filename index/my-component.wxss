@@ -1,0 +1,6 @@
+/* index/my-component.wxss */
+.wrapper{
+  text-align: center;
+  border: 1px solid #ffcc00;
+  padding: 50rpx;
+}
