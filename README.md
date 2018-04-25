@@ -1,6 +1,6 @@
-项目文章地址：
+详细说明文章：http://blog.f1982.com/cn/2018/04/24/wei-xin-xiao-cheng-xu-ru-he-diao-yong-zhu-jian-de-fang-fa/
 
-小程序主要基于数据绑定来处理 js 和 wxml 之间的数据传输，虽然这样有很多便利性，但是有时候也是蛮不方便的。今天遇到调用组件方法的问题，其实非常简单，最关键是一个 ```selectComponent('#component-id');``` 的方法问题，不想读太多文字可以直接[下载源码](https://github.com/f1982/WxappCallComponentMethod)。下面是完整记录。
+小程序主要基于数据绑定来处理 js 和 wxml 之间的数据传输，虽然这样有很多便利性，但是有时候也是蛮不方便的。今天遇到调用组件方法的问题，其实非常简单，最关键是一个 ```selectComponent('#component-id');``` 的方法问题，不想读太多文字可以读源码。
 
 ## 创建组件
 
@@ -56,3 +56,5 @@
         const component = this.selectComponent('#component-id');
         component.myFunction();
     }
+
+个人博客地址：
